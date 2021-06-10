@@ -25,6 +25,18 @@ h1 {
   padding: 10px 0;
 }
 
+@media (max-width: 768px) {
+  .container-nav {
+    background-color: #585d65;
+    border-radius: 0px;
+    left: 4%;
+    right: 4%;
+    top: 40px;
+    padding: 5px 0;
+    text-align: center;
+  }
+}
+
 .download-button {
   border-color: white;
   border-radius: 80px;
