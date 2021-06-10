@@ -10,6 +10,26 @@ h1 {
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  border-color: #00000000;
+  padding: 25px;
+  border-radius: 50px;
+}
+
+.navbar-toggler:active {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler:focus {
+  border: none;
+  outline: none;
+}
+
 .nav-item {
   margin-left: 20px;
   font-weight: 600;
@@ -22,16 +42,33 @@ h1 {
   left: 4%;
   right: 4%;
   top: 40px;
-  padding: 10px 0;
+  padding: 10px 0 10px 40px;
+}
+
+.logo-lnk {
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  line-height: 1.1;
+  color: #fff;
+}
+
+.logo-lnk img {
+  margin-right: 25px;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: white;
+  line-height: 1.1;
+  margin-left: 0.1%;
 }
 
 @media (max-width: 768px) {
   .container-nav {
-    background-color: #585d65;
+    background-color: #00000000;
     border-radius: 0px;
-    left: 4%;
-    right: 4%;
-    top: 40px;
     padding: 5px 0;
     text-align: center;
   }
@@ -63,7 +100,6 @@ h1 {
 
 .container-image {
   padding: 0;
-
 }
 
 .container-intro {
@@ -71,15 +107,15 @@ h1 {
 }
 
 .container-image {
-  display:inline-block;
+  display: inline-block;
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.5) 0%, #373b40 90%);
 }
 
 .container-image img {
   width: 100%;
   object-fit: cover;
-  position:relative;
-  z-index:-1;
+  position: relative;
+  z-index: -1;
 }
 
 .title {
