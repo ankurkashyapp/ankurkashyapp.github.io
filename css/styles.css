@@ -10,8 +10,23 @@ h1 {
   color: white;
 }
 
+h2 {
+  font-weight: 800;
+  font-size: 3rem;
+  color: white;
+}
+
 a {
   text-decoration: none;
+}
+
+hr {
+  border: none;
+  width: 80%;
+  color: #585d65;
+  margin: auto;
+  height: 2px !important;
+  margin-top: 2%;
 }
 
 .navbar-toggler {
@@ -127,11 +142,6 @@ a {
   padding: 0;
 }
 
-.container-home .row {
-  margin-right: 0px;
-  margin-left: 0p text-align: center;
-}
-
 .container-image {
   padding: 0;
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.5) 0%, #373b40 90%);
@@ -191,4 +201,15 @@ a {
 .contact-button:hover {
   background-color: #585d65;
   border-color: white;
+}
+
+/*                    Experiences                   */
+
+#experience {
+  padding: 2% 15%;
+}
+
+.experience-title {
+  text-align: center;
+  padding-bottom: 1%;
 }
