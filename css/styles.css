@@ -20,15 +20,18 @@ a {
   border-radius: 50px;
 }
 
-.navbar-toggler:active {
-  border: none;
-  outline: none;
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 
-.navbar-toggler:focus {
-  border: none;
-  outline: none;
+.navbar-toggler.collapsed {}
+
+/* .navbar-toggler>.close {
+    display:inline;
 }
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.toggle-icon {
+    display:none;
+}*/
 
 .nav-item {
   margin-left: 20px;
@@ -41,7 +44,7 @@ a {
   border-radius: 80px;
   left: 4%;
   right: 4%;
-  top: 40px;
+  top: 4%;
   padding: 10px 0 10px 40px;
 }
 
@@ -66,32 +69,42 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  .row {
+    margin: 0;
+  }
+
   .container-nav {
-    background-color: #00000000;
-    border-radius: 0px;
-    padding: 5px 0;
+    /* background-color: #00000000; */
+    border-radius: 60px;
+    padding: 10px;
     text-align: center;
-    left: 0;
-    right: 0;
-    top: 0;
   }
 
-  .navbar-collpase:active {
-    background-color: #373b40;
+  .nav-item {
+    font-weight: 800;
+    font-size: 1.1rem;
   }
 
-  .navbar-collpase:focus {
-    background-color: #373b40;
+  .container-home {
+    text-align: center;
   }
-
 
   .title {
-    margin-top: 20px;
     background-color: #373b40;
-    padding: 50px;
-    padding-left: 50px !important;
-    margin-left: 0px !important;
-    margin-top: 0px !important;
+    margin-left: 20% !important;
+    margin-top: -100px !important;
+    border-top-left-radius: 180px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 180px;
+    width: 60%;
+  }
+
+  .title h1 {
+    font-size: 2rem;
+  }
+
+  .about-me {
+    padding-left: 20px !important;
   }
 }
 
@@ -116,19 +129,11 @@ a {
 
 .container-home .row {
   margin-right: 0px;
-  margin-left: 0px;
+  margin-left: 0p text-align: center;
 }
 
 .container-image {
   padding: 0;
-}
-
-.container-intro {
-  padding: 0;
-}
-
-.container-image {
-  display: inline-block;
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.5) 0%, #373b40 90%);
 }
 
@@ -139,18 +144,22 @@ a {
   z-index: -1;
 }
 
+.container-intro {
+  padding: 0;
+}
+
 .title {
   margin-top: 130px;
   background-color: #373b40;
   border-top-left-radius: 280px;
   border-bottom-left-radius: 280px;
   padding: 50px;
-  padding-left: 70px;
   margin-left: -150px;
 }
 
 .about-me {
   padding-left: 50px;
+  padding-right: 20px;
 }
 
 .designation h3 {
