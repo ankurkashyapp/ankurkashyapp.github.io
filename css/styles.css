@@ -26,7 +26,11 @@ hr {
   color: #585d65;
   margin: auto;
   height: 2px !important;
-  margin-top: 2%;
+  margin-top: 3%;
+}
+
+.row {
+  margin: 0;
 }
 
 .navbar-toggler {
@@ -47,7 +51,6 @@ hr {
 .navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.toggle-icon {
     display:none;
 }*/
-
 .nav-item {
   margin-left: 20px;
   font-weight: 600;
@@ -84,10 +87,6 @@ hr {
 }
 
 @media only screen and (max-width: 768px) {
-  .row {
-    margin: 0;
-  }
-
   .container-nav {
     /* background-color: #00000000; */
     border-radius: 60px;
@@ -204,7 +203,6 @@ hr {
 }
 
 /*                    Experiences                   */
-
 #experience {
   padding: 2% 15%;
 }
@@ -212,4 +210,14 @@ hr {
 .experience-title {
   text-align: center;
   padding-bottom: 1%;
+}
+
+.carousel-item {
+    margin-right: 0;
+}
+
+.carousel-inner .active+.carousel-item+.carousel-item {
+  display: block;
+}
+
 }
