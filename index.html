@@ -5,11 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
-  <!-- CSS only -->
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/057fe78504.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&display=swap" rel="stylesheet">
   <link href='https://css.gg/menu-left-alt.css' rel='stylesheet'>
@@ -85,35 +82,81 @@
   </section>
 
   <hr>
+
   <section id="experience">
     <div class="experience-title">
-      <h2>Experience</h2>
+      <h2>Experience<br><span class="subtitle">WORKING WITH</span></h2>
     </div>
-    <div class="container-fluid container-experience">
-      <div id="experience-carousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner row w-100 mx-auto" role="listbox">
-          <div class="carousel-item col-lg-4 active">
-            <img src="images/8.jpg" alt="img8">
-          </div>
-          <div class="carousel-item col-lg-4">
-            <img src="images/8.jpg" alt="img8">
-          </div>
-          <div class="carousel-item col-lg-4">
-            <img src="images/8.jpg" alt="img8">
-          </div>
-          <div class="carousel-item col-lg-4">
-            <img src="images/8.jpg" alt="img8">
+    <div class="container experience-content">
+      <div class="row mx-auto my-auto justify-content-center">
+        <div id="recipeCarousel" class="carousel slide" data-bs-interval="false">
+          <!-- data-bs-ride="carousel" -->
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="col-md-4">
+                <div class="experience-item">
+                  <div class="experience-top">
+                    <h6>Present</h6>
+                    <div class="company-name">TSYS<span style="font-size: 0.7rem;"><br>Noida, India</span></div>
+                  </div>
+                  <div class="experience-bottom">
+                    <p>I have been working here at TSYS for more than 5 months now. Primary technologies are Java, Spring, Kafka and React.js.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-md-4">
+                <div class="experience-item">
+                  <div class="experience-top">
+                    <h6>2019-2020</h6>
+                    <div class="company-name">Landis+Gyr<span style="font-size: 0.7rem;"><br>Noida, India</span></div>
+                  </div>
+                  <div class="experience-bottom">
+                    <p>I have worked at Landis+Gyr for around 1 year and 2 months. Primary technologies are Java, Spring, Kafka and React.js.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-md-4">
+                <div class="experience-item">
+                  <div class="experience-top">
+                    <h6>2019-2019</h6>
+                    <div class="company-name">IndiaMART<span style="font-size: 0.7rem;"><br>Noida, India</span></div>
+                  </div>
+                  <div class="experience-bottom">
+                    <p>I have worked at IndiaMART for around 6 months. Primary technologies are Java, Spring, Kafka and React.js.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-md-4">
+                <div class="experience-item">
+                  <div class="experience-top">
+                    <h6>2016-2018</h6>
+                    <div class="company-name">Amdocs<span style="font-size: 0.7rem;"><br>Pune & Gurgaon, India</span></div>
+                  </div>
+                  <div class="experience-bottom">
+                    <p>I had been with Amdocs for around 2 year and 6 months. Primary technologies are Java, Spring, Kafka and React.js.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#experience-carousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#experience-carousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
+    </div>
+    <div class="carousel-controls">
+      <button class="carousel-control-prev" type="button" data-bs-target="#recipeCarousel" data-bs-slide="prev">
+        <span class="circular-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#recipeCarousel" data-bs-slide="next">
+        <span class="circular-icon"><i class="fas fa-chevron-right"></i></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </section>
 
@@ -129,7 +172,9 @@
 
   </section>
 
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/057fe78504.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
