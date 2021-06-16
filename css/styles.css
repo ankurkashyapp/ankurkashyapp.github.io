@@ -88,11 +88,11 @@ hr {
 
 @media only screen and (max-width: 768px) {
   #experience {
-    padding: 0px 10%;
+    padding: 0px 10% !important;
   }
 
   #skills {
-    padding: 0px 10%;
+    padding: 0px 10% !important;
   }
 
   .container-nav {
