@@ -208,24 +208,24 @@ hr {
   padding: 0px 15%;
 }
 
-.experience-title {
+.section-title {
   display: flex;
   justify-content: center;
 }
 
-.experience-title h2 {
+.section-title h2 {
   line-height: 0.65;
   text-align: left;
 }
 
-.subtitle {
+.section-subtitle {
   font-size: 0.9rem;
   font-weight: 500;
   color: #68e0cf;
 }
 
 .experience-content {
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 
 @media (max-width: 767px) {
@@ -325,4 +325,199 @@ hr {
   text-align: left;
   margin-top: 8%;
   line-height: 2;
+}
+
+/*               Skills Section                */
+
+#skills {
+  padding: 0px 15%;
+}
+
+.skills-content {
+  margin-top: 3rem;
+}
+
+.skill-box {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.skill-title h6 {
+  color: white;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.skill-title span {
+  color: #68e0cf;
+  float: right;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.skill-percentage {
+  height: 0.3rem;
+  width: 100%;
+  background-color: #585d65;
+}
+
+.JAVA {
+  width: 90%;
+  height: 100%;
+  background-color: #68e0cf;
+  animation: ANIMATE-JAVA 3s;
+}
+
+@keyframes ANIMATE-JAVA {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+.SPRING {
+  width: 80%;
+  height: 100%;
+  background-color: #68e0cf;
+  animation: ANIMATE-SPRING 3s;
+}
+
+@keyframes ANIMATE-SPRING {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+.SPRING-BOOT {
+  width: 90%;
+  height: 100%;
+  background-color: #68e0cf;
+  animation: ANIMATE-SPRING-BOOT 3s;
+}
+
+@keyframes ANIMATE-SPRING-BOOT {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+.HIBERNATE {
+  width: 50%;
+  height: 100%;
+  background-color: #68e0cf;
+  animation: ANIMATE-HIBERNATE 3s;
+}
+
+@keyframes ANIMATE-HIBERNATE {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+.KAFKA {
+  width: 50%;
+  height: 100%;
+  background-color: #68e0cf;
+  animation: ANIMATE-KAFKA 3s;
+}
+
+@keyframes ANIMATE-KAFKA {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+.HTML {
+  width: 60%;
+  height: 100%;
+  background-color: #68e0cf;
+  animation: ANIMATE-HTML 3s;
+}
+
+@keyframes ANIMATE-HTML {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 60%;
+  }
+}
+
+.CSS {
+  width: 50%;
+  height: 100%;
+  background-color: #68e0cf;
+  animation: ANIMATE-CSS 3s;
+}
+
+@keyframes ANIMATE-CSS {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+.BOOTSTRAP {
+  width: 40%;
+  height: 100%;
+  background-color: #68e0cf;
+  animation: ANIMATE-BOOTSTRAP 3s;
+}
+
+@keyframes ANIMATE-BOOTSTRAP {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 40%;
+  }
+}
+
+.JAVASCRIPT {
+  width: 30%;
+  height: 100%;
+  background-color: #68e0cf;
+  animation: ANIMATE-JAVASCRIPT 3s;
+}
+
+@keyframes ANIMATE-JAVASCRIPT {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 30%;
+  }
+}
+
+.REACT {
+  width: 5%;
+  height: 100%;
+  background-color: #68e0cf;
+  animation: ANIMATE-REACT 3s;
+}
+
+@keyframes ANIMATE-REACT {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 5%;
+  }
 }
