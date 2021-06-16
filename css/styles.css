@@ -87,6 +87,14 @@ hr {
 }
 
 @media only screen and (max-width: 768px) {
+  #experience {
+    padding: 0px 10%;
+  }
+
+  #skills {
+    padding: 0px 10%;
+  }
+
   .container-nav {
     /* background-color: #00000000; */
     border-radius: 60px;
@@ -232,12 +240,13 @@ hr {
 }
 
 @media (max-width: 767px) {
-    .carousel-inner .carousel-item > div {
-        display: none;
-    }
-    .carousel-inner .carousel-item > div:first-child {
-        display: block;
-    }
+  .carousel-inner .carousel-item>div {
+    display: none;
+  }
+
+  .carousel-inner .carousel-item>div:first-child {
+    display: block;
+  }
 }
 
 .carousel-item {
@@ -247,21 +256,21 @@ hr {
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-next,
 .carousel-inner .carousel-item-prev {
-    display: flex;
+  display: flex;
 }
 
 /* medium and up screens */
 @media (min-width: 768px) {
 
-    .carousel-inner .carousel-item-end.active,
-    .carousel-inner .carousel-item-next {
-      transform: translateX(33.33%);
-    }
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.33%);
+  }
 
-    .carousel-inner .carousel-item-start.active,
-    .carousel-inner .carousel-item-prev {
-      transform: translateX(-33.33%);
-    }
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.33%);
+  }
 }
 
 .carousel-inner .carousel-item-end,
@@ -281,14 +290,14 @@ hr {
 }
 
 .circular-icon {
-    width: 64px;
-    height: 64px;
-    border-radius: 32px;
-    text-align: center;
-    line-height: 64px;
-    border: 1px solid #585d65;
-    margin-left: 15px;
-    margin-right: 15px;
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  text-align: center;
+  line-height: 64px;
+  border: 1px solid #585d65;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .experience-item {
@@ -331,7 +340,6 @@ hr {
 }
 
 /*               Skills Section                */
-
 #skills {
   padding: 0px 15%;
 }
@@ -376,6 +384,7 @@ hr {
   from {
     width: 0px;
   }
+
   to {
     width: 90%;
   }
@@ -392,6 +401,7 @@ hr {
   from {
     width: 0px;
   }
+
   to {
     width: 80%;
   }
@@ -408,6 +418,7 @@ hr {
   from {
     width: 0px;
   }
+
   to {
     width: 90%;
   }
@@ -424,6 +435,7 @@ hr {
   from {
     width: 0px;
   }
+
   to {
     width: 50%;
   }
@@ -440,6 +452,7 @@ hr {
   from {
     width: 0px;
   }
+
   to {
     width: 50%;
   }
@@ -456,6 +469,7 @@ hr {
   from {
     width: 0px;
   }
+
   to {
     width: 60%;
   }
@@ -472,6 +486,7 @@ hr {
   from {
     width: 0px;
   }
+
   to {
     width: 50%;
   }
@@ -488,6 +503,7 @@ hr {
   from {
     width: 0px;
   }
+
   to {
     width: 40%;
   }
@@ -504,6 +520,7 @@ hr {
   from {
     width: 0px;
   }
+
   to {
     width: 30%;
   }
@@ -520,6 +537,7 @@ hr {
   from {
     width: 0px;
   }
+
   to {
     width: 5%;
   }
