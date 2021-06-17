@@ -116,7 +116,11 @@ li span {
   }
 
   #contact {
-    padding: 0px 10% !important;
+    padding: 0px 2% !important;
+  }
+
+  .contact-box {
+    padding: 0.5rem !important;
   }
 
   .container-nav {
