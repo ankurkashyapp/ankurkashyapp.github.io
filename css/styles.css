@@ -61,16 +61,23 @@ li span {
 
 .navbar-toggler.collapsed {}
 
-/* .navbar-toggler>.close {
-    display:inline;
-}
-.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.toggle-icon {
-    display:none;
-}*/
 .nav-item {
-  margin-left: 20px;
   font-weight: 600;
   font-size: .80rem;
+}
+
+.nav-link:hover {
+  color: #68e0cf !important;
+}
+
+.menu-item {
+  border-radius: 25px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.menu-item:hover {
+  background-color: #373b40;
 }
 
 .container-nav {
@@ -103,6 +110,10 @@ li span {
 }
 
 @media only screen and (max-width: 768px) {
+  ul {
+    padding: 0;
+  }
+
   #experience {
     padding: 0px 10% !important;
   }
@@ -554,23 +565,22 @@ li span {
   }
 }
 
-.REACT {
-  width: 5%;
+.ANDROID {
+  width: 70%;
   height: 100%;
   background-color: #68e0cf;
-  animation: ANIMATE-REACT 3s;
+  animation: ANIMATE-ANDROID 3s;
 }
 
-@keyframes ANIMATE-REACT {
+@keyframes ANIMATE-ANDROID {
   from {
     width: 0px;
   }
 
   to {
-    width: 5%;
+    width: 70%;
   }
 }
-
 
 /********************   EDUCATION **********************/
 #education {
@@ -590,6 +600,26 @@ li span {
 
 .contact-box {
   border-radius: 20px;
-  border:1px solid white;
+  border: 1px solid white;
   padding: 1rem;
+}
+
+.social-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  border: 1px solid white;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  text-align: center;
+  background: #00000000;
+  margin: 0 0.25rem;
+}
+
+.social-icon i {
+  color: white;
 }
