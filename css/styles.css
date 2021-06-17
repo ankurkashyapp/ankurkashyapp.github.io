@@ -16,6 +16,7 @@ h2 {
 }
 
 a {
+  cursor: pointer;
   text-decoration: none;
 }
 
@@ -66,10 +67,6 @@ li span {
   font-size: .80rem;
 }
 
-.nav-link:hover {
-  color: #68e0cf !important;
-}
-
 .menu-item {
   border-radius: 25px;
   padding-left: 1rem;
@@ -78,6 +75,10 @@ li span {
 
 .menu-item:hover {
   background-color: #373b40;
+}
+
+.menu-item:hover .nav-link {
+  color: #68e0cf !important;
 }
 
 .container-nav {
@@ -179,7 +180,7 @@ li span {
   padding: 20px 40px;
   color: white;
   font-weight: 500;
-  margin-left: 20px;
+  margin-left: 0.2rem;
   font-size: .75rem;
 }
 
