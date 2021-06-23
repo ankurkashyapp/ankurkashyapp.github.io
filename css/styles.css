@@ -624,3 +624,7 @@ li span {
 .social-icon i {
   color: white;
 }
+
+.social-icon:hover {
+  background: #585d65;
+}

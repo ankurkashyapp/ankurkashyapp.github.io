@@ -48,3 +48,7 @@ document.getElementById('education-menu').addEventListener('click', function() {
 document.getElementById('contact-menu').addEventListener('click', function() {
   window.scrollTo(0, document.getElementById('contact').offsetTop-140);
 })
+
+document.getElementById('contact-me').addEventListener('click', function() {
+  window.scrollTo(0, document.getElementById('contact').offsetTop-140);
+})
